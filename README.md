@@ -1,9 +1,9 @@
 SF Open Referral
 =================================
 
-In this repo you'll find a collection of transform scripts for taking raw San Francisco service provider data from different City Departments and local community organizations, and transforming it into the Open Referral specification (link needed).
+This project is part of a larger, nationwide movement to take data about social services, including where they are and what they offer to whom, and transform it into a standard that can be shared broadly through the Ohana API and any other tool that supports the emerging Open Referral spec.
 
-This project is part of a movement to take data about social services including where they are and what they offer to whom, and transform it into a standard that can be shared broadly through the Ohana API and any other tool that supports the emerging Open Referral spec.
+In this repo you'll find a collection of transform scripts for taking raw San Francisco service provider data from different City Departments and local community organizations, and transforming it into the Open Referral specification (link needed).
 
 This is just one piece of the project, you can also check out the:
 
@@ -12,17 +12,6 @@ This is just one piece of the project, you can also check out the:
 
 #Contribution guidelines
 The first thing to do is to bring yourself up to speed on the emerging Open Referral spec and the implementation examples of Ohana API, Ohana API admin and SMC-Connect. Ohana API and related tools came out of a 2013 Code for America fellowship project in San Mateo County.
-
-#High Level Timeline
-March - May 2014: Prepare two to three social service datasets in the required JSON format.
-
-Nat'l Day of Civic Hacking (end of May): Deploy Ohana API with 2-3 datasets. Work on admin console.
-
-June - July 2014: Develop admin platform and simple frontend for database.
-
-July - September 2014: Pilot program with Department of Children, Youth and Their Families in SF to update and maintain data in database.
-
-October - ongoing: Work with other social services to provide admin interface for updating and maintaining data
 
 #Quick and dirty tasks 4/9/2014
 
@@ -34,7 +23,3 @@ October - ongoing: Work with other social services to provide admin interface fo
 6. Write a transform script to transform into the format [documented here](https://github.com/codeforamerica/ohana-api/wiki/Populating-the-Postgres-database-from-a-JSON-file)
 
 ---------------------------------------
-
-
-![The plan](https://raw.githubusercontent.com/sfbrigade/sf-openreferral-transform-scripts/master/plan.png)
-
